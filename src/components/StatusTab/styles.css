@@ -1,0 +1,79 @@
+.Tab-container {
+  padding: 80px 120px;
+}
+.Status-container {
+  display: flex;
+  padding: 20px 80px;
+  align-items: center;
+}
+.Title-tab {
+  width: 814px;
+  padding-left: 60px;
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #01539d;
+}
+.FoldCard-container {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+.Card {
+  position: relative;
+  height: 130px;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #9bf3c865;
+}
+.Cards h3 {
+  margin: 0;
+}
+.Large-foldtext {
+  font-size: 40px;
+  color: #01539d;
+  font-weight: 800;
+}
+.FoldText-container {
+  display: flex;
+  align-items: center;
+}
+.FoldText-container span {
+  font-size: 40px;
+  color: #33c7ca;
+}
+.Substring-foldText {
+  margin: 30px 0 0 10px;
+}
+.Card:nth-child(2) {
+  background: #84bff2a9;
+}
+.Card:nth-child(3) {
+  background: #fcd48cb7;
+}
+.Card:nth-child(4) {
+  background: #fca594a2;
+}
+
+.Card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 40px 40px 0;
+  border-color: #9bf3c865 #fff;
+}
+.Card:nth-child(2)::before {
+  border-color: #84bff2a9 #fff;
+}
+.Card:nth-child(3)::before {
+  border-color: #fcd48cb7 #fff;
+}
+.Card:nth-child(4)::before {
+  border-color: #fca594a2 #fff;
+}

@@ -1,0 +1,32 @@
+.Application-container-Tab {
+  display: flex;
+  justify-content: space-around;
+}
+.Application-container {
+  background: linear-gradient(96.13deg, #1a94ff 1.04%, #33c7ca 96.78%);
+  height: 424px;
+  width: 100%;
+  padding: 20px 140px;
+  color: #fff;
+  font-size: 25px;
+}
+.Application-container h3 {
+  max-width: 700px;
+}
+.Application-container img {
+  width: 400px;
+}
+.Mobile-Image-container {
+  position: relative;
+}
+.Mobile-Image {
+  position: absolute;
+  bottom: 0;
+  right: 430px;
+}
+.Mobile-Image-large {
+  position: absolute;
+  z-index: 8;
+  bottom: 0;
+  right: 140px !important;
+}

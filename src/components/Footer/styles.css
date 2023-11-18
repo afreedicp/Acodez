@@ -1,0 +1,36 @@
+.Footer-container {
+  background: #90c9f74d;
+  height: 501px;
+  width: 100%;
+  padding: 120px 0px;
+  display: flex;
+  justify-content: space-around;
+  color: #1e1e1e99;
+}
+.FooterMain-container {
+  max-width: 380px;
+  line-height: 28px;
+}
+.FooterMain-container h4 {
+  color: #1e1e1e;
+  margin: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.FooterImage-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #01539d;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.GoogleContainer {
+  margin: 10px;
+}
+.HelpSupport img {
+  margin-right: 8px;
+}

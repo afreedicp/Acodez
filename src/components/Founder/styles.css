@@ -1,0 +1,60 @@
+.Founders-container {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(96.13deg, #01539d 1.04%, #03328a88 96.78%);
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.Founders-container button {
+  border: 2px solid #ffdd1e;
+  width: 110px;
+  height: 44px;
+  border-radius: 40px;
+  background: none;
+  color: #fff;
+}
+.FoundersText-container {
+  max-width: 720px;
+  color: #fff;
+}
+.FoundersText-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.Founders-Button-container {
+  display: flex;
+  align-items: center;
+}
+.Founders-Button-container img {
+  margin-left: 20px;
+}
+.Founder-imagecontainer {
+  position: relative;
+  background: linear-gradient(145.26deg, #33c7ca 9.31%, #23a6ed 96.24%);
+  width: 338px;
+  height: 338px;
+  border-radius: 50%;
+}
+.Founder-image {
+  top: 2.3%;
+  left: 2.3%;
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  z-index: 2;
+}
+.drop-image {
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  right: 0;
+}
+.drop-image-top {
+  position: absolute;
+  z-index: 9;
+  top: 10%;
+  left: 4%;
+  width: 50px;
+  transform: rotate(180deg);
+}
